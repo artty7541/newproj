@@ -11,18 +11,45 @@ import Icons from 'src/pages/Icons.vue'
 import Maps from 'src/pages/Maps.vue'
 import Notifications from 'src/pages/Notifications.vue'
 import Upgrade from 'src/pages/Upgrade.vue'
-
+import Edit from '../pages/UserProfile/form-edit.vue'
+import Creapp from '../pages/UserProfile/form-create.vue'
+import Editadd from '../pages/UserProfile/editadmin.vue'
+import Apppro from '../pages/UserProfile/Addproduct.vue'
+import Info from '../pages/UserProfile/Info.vue'
 const routes = [
   {
     path: '/',
     component: DashboardLayout,
-    redirect: '/admin/overview'
+   
   },
+    
   {
     path: '/admin',
     component: DashboardLayout,
-    redirect: '/admin/overview',
+    
     children: [
+      {
+        path: 'icon/Info',
+        name: 'Info',
+        component: Info
+      },
+      
+      {
+        path: 'maps/Addproduct',
+        name: 'Apppro',
+        component: Apppro
+      },
+      {
+        path: 'typography/editadmin',
+        name: 'Editadd',
+        component: Editadd
+      },
+      {
+      path: 'typography/form-create',
+      name: 'Creapp',
+      component: Creapp
+    },
+
       {
         path: 'overview',
         name: 'Overview',
@@ -51,13 +78,20 @@ const routes = [
       {
         path: 'maps',
         name: 'Maps',
-        component: Maps
+        component: Maps,
+      },
+      {
+        path: 'maps/form-edit',
+        name: 'Maps',
+        component: Edit,
+         
       },
       {
         path: 'notifications',
         name: 'Notifications',
         component: Notifications
       },
+    
       {
         path: 'upgrade',
         name: 'Upgrade to PRO',

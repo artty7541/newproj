@@ -101,16 +101,16 @@
     data () {
       return {
         user: {
-          company: 'Light dashboard',
-          username: 'michael23',
+          company: ' ',
+          username: '',
           email: '',
-          firstName: 'Mike',
-          lastName: 'Andrew',
-          address: 'Melbourne, Australia',
-          city: 'melbourne',
-          country: 'Australia',
+          firstName: '',
+          lastName: '',
+          address: '',
+          city: '',
+          country: '',
           postalCode: '',
-          aboutMe: `Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.`
+          aboutMe: ``
         }
       }
     },

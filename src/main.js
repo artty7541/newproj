@@ -13,16 +13,23 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
  */
+ 
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
-
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
 // LightBootstrap plugin
 import LightBootstrap from './light-bootstrap-main'
-
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 // router setup
+import './App.scss'
 import routes from './routes/routes'
-
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
 import './registerServiceWorker'
 // plugin setup
 Vue.use(VueRouter)

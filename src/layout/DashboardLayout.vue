@@ -16,7 +16,7 @@
       </sidebar-link>
       <sidebar-link to="/admin/typography">
         <i class="nc-icon nc-paper-2"></i>
-        <p>เมนูอาหาร</p>
+        <p>ผู้ดูแลระบบ</p>
       </sidebar-link>
       <sidebar-link to="/admin/icons">
         <i class="nc-icon nc-atom"></i>

@@ -11,9 +11,14 @@
               <h4 class="card-title">รายการสินค้า</h4>
             </template>
             <div class="col-md-12">
-              <div class="row col-md-12 col-md-offset-2 custyle"></div>
+              <div class="row col-md-12 col-md-offset-2 custyle"></div> 
+              <router-link to="maps/Addproduct" class="btn btn-primary mt-3">
+                                    <i class="fas fa-plus"></i>
+                                    เพิ่มข้อมูล
+                                </router-link>
+                               
             </div>
-            <button class="button">เพิ่มรายการ</button>
+            <br>
             <div>
               <div class="col-sm-12">
                 <table
@@ -32,7 +37,7 @@
                         aria-controls="logs"
                         rowspan="1"
                         colspan="1"
-                        style="width: 37.6px"
+                        style="width: 150.6px"
                         aria-sort="ascending"
                         aria-label="รหัสสินค้า: activate to sort column descending"
                       >
@@ -44,7 +49,7 @@
                         aria-controls="logs"
                         rowspan="1"
                         colspan="1"
-                        style="width: 94.6px"
+                        style="width: 200.6px"
                         aria-label="รูปภาพ: activate to sort column ascending"
                       >
                         รูปภาพ
@@ -66,7 +71,7 @@
                         aria-controls="logs"
                         rowspan="1"
                         colspan="1"
-                        style="width: 40.6px"
+                        style="width: 100.6px"
                         aria-label="ราคา: activate to sort column ascending"
                       >
                         ราคา
@@ -77,7 +82,7 @@
                         aria-controls="logs"
                         rowspan="1"
                         colspan="1"
-                        style="width: 66.6px"
+                        style="width: 100.6px"
                         aria-label="สถานะ: activate to sort column ascending"
                       >
                         สถานะ
@@ -88,7 +93,7 @@
                         aria-controls="logs"
                         rowspan="1"
                         colspan="1"
-                        style="width: 77.6px"
+                        style="width: 100.6px"
                         aria-label="จัดการ: activate to sort column ascending"
                       >
                         จัดการ
@@ -115,20 +120,20 @@
                       <td class="align-middle">-</td>
                       <td class="align-middle">-</td>
                       <td class="align-middle">
-                       <label class="switch">
-  <input type="checkbox" checked>
-  <span></span> 
-</label>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span></span>
+                        </label>
                       </td>
                       <td class="align-middle">
                         <div class="btn-group" role="group">
-                          <a
-                            href="form-edit.php?id=P001"
+                          <router-link
+                            to="maps/form-edit"
                             type="button"
                             class="btn btn-warning"
                           >
                             <i class="far fa-edit"></i> แก้ไข
-                          </a>
+                          </router-link>
                           <button
                             type="button"
                             class="btn btn-danger"
@@ -159,20 +164,20 @@
                       <td class="align-middle">-</td>
                       <td class="align-middle">-</td>
                       <td class="align-middle">
-                       <label class="switch">
-  <input type="checkbox" checked>
-  <span></span> 
-</label>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span></span>
+                        </label>
                       </td>
                       <td class="align-middle">
                         <div class="btn-group" role="group">
-                          <a
-                            href="form-edit.php?id=P002"
+                          <router-link
+                            to="maps/form-edit"
                             type="button"
                             class="btn btn-warning"
                           >
                             <i class="far fa-edit"></i> แก้ไข
-                          </a>
+                          </router-link>
                           <button
                             type="button"
                             class="btn btn-danger"
@@ -204,19 +209,19 @@
                       <td class="align-middle">-</td>
                       <td class="align-middle">
                         <label class="switch">
-  <input type="checkbox" checked>
-  <span></span> 
-</label>
+                          <input type="checkbox" checked />
+                          <span></span>
+                        </label>
                       </td>
                       <td class="align-middle">
                         <div class="btn-group" role="group">
-                          <a
-                            href="form-edit.php?id=P003"
+                          <router-link
+                            to="maps/form-edit"
                             type="button"
                             class="btn btn-warning"
                           >
                             <i class="far fa-edit"></i> แก้ไข
-                          </a>
+                          </router-link>
                           <button
                             type="button"
                             class="btn btn-danger"
@@ -248,19 +253,19 @@
                       <td class="align-middle">-</td>
                       <td class="align-middle">
                         <label class="switch">
-  <input type="checkbox" checked>
-  <span></span> 
-</label>
+                          <input type="checkbox" checked />
+                          <span></span>
+                        </label>
                       </td>
                       <td class="align-middle">
                         <div class="btn-group" role="group">
-                          <a
-                            href="form-edit.php?id=P004"
+                          <router-link
+                            to="maps/form-edit"
                             type="button"
                             class="btn btn-warning"
                           >
                             <i class="far fa-edit"></i> แก้ไข
-                          </a>
+                          </router-link>
                           <button
                             type="button"
                             class="btn btn-danger"
@@ -291,20 +296,20 @@
                       <td class="align-middle">-</td>
                       <td class="align-middle">-</td>
                       <td class="align-middle">
-                    <label class="switch">
-  <input type="checkbox" checked>
-  <span></span> 
-</label>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span></span>
+                        </label>
                       </td>
                       <td class="align-middle">
                         <div class="btn-group" role="group">
-                          <a
-                            href="form-edit.php?id=P005"
+                         <router-link
+                            to="maps/form-edit"
                             type="button"
                             class="btn btn-warning"
                           >
                             <i class="far fa-edit"></i> แก้ไข
-                          </a>
+                          </router-link>
                           <button
                             type="button"
                             class="btn btn-danger"
@@ -324,19 +329,18 @@
         </div>
       </div>
     </div>
-    
   </div>
 </template>
 <script>
 </script>
 
 <style>
-label.switch {  
+label.switch {
   text-align: left;
-  width: 80px;
-  height: calc(80px / 2);
-  border-radius:60px;    
-  background-color:#4ed164;
+  width: 70px;
+  height: calc(50px / 2);
+  border-radius: 50px;
+  background-color: #4ed164;
   display: inline-block;
   position: relative;
   cursor: pointer;
@@ -351,16 +355,17 @@ label.switch > span {
 label.switch > input[type="checkbox"] {
   opacity: 0;
   position: absolute;
-} 
+}
 
-label.switch > span:before, label.switch > span:after {
+label.switch > span:before,
+label.switch > span:after {
   content: "";
   cursor: pointer;
   position: absolute;
 }
 
 label.switch > input[type="checkbox"]:focus ~ span {
-  box-shadow: 0 0 0 4px #43b556; 
+  box-shadow: 0 0 0 4px #43b556;
 }
 
 label.switch > input[type="checkbox"]:checked:focus ~ span {
@@ -368,7 +373,7 @@ label.switch > input[type="checkbox"]:checked:focus ~ span {
 }
 
 label.switch > span {
-  border-radius: 60px;    
+  border-radius: 60px;
 }
 
 label.switch > span:before {
@@ -377,25 +382,25 @@ label.switch > span:before {
   box-sizing: border-box;
   background-color: #f1f1f1;
   border-radius: 60px;
-  transition: opacity .2s ease-out .1s, transform .2s ease-out .1s;
+  transition: opacity 0.2s ease-out 0.1s, transform 0.2s ease-out 0.1s;
   transform: scale(1);
   opacity: 1;
 }
 
-label.switch > span:after{
+label.switch > span:after {
   top: 50%;
   z-index: 3;
-  transition: transform .4s cubic-bezier(0.44,-0.12, 0.07, 1.15);
-  width: calc(80px / 2);
-  height: calc(80px / 2);
+  transition: transform 0.4s cubic-bezier(0.44, -0.12, 0.07, 1.15);
+  width: calc(70px / 2);
+  height: calc(70px / 2);
   transform: translate3d(0, -50%, 0);
   background-color: #fff;
   border-radius: 100%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .3);  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 label.switch > input[type="checkbox"]:checked ~ span:before {
   transform: scale(0);
-  opacity: .7;
+  opacity: 0.7;
 }
 
 label.switch > input[type="checkbox"]:checked ~ span:after {
