@@ -1,5 +1,6 @@
 <template>
     <div>
+        <br>
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
@@ -55,7 +56,7 @@
                                                     <input type="file" class="custom-file-input" id="customFile" accept="image/*">
                                                     <label class="custom-file-label" for="customFile">เลือกรูปภาพใหม่</label>
                                                 </div>
-                                                <img src="" alt="Image Profile" class="img-fluid p-3">
+                                                <img src="../../../documentation/img/tim-logo.png" alt="Image Profile" class="img-fluid p-3" />
                                             </div>
 
                                         </div>

@@ -44,10 +44,10 @@
                           >
                         </div>
                       </div>
-                      <div class="col-sm-6 col-md-6">
+                      <div class="col-sm-6 col-md-6 col-xl- text-right">
                         <div id="logs_filter" class="dataTables_filter">
-                          <label
-                            >ค้นหา<input
+                         ค้นหา <label
+                            ><input
                               type="search"
                               class="form-control form-control-sm"
                               placeholder=""
@@ -56,7 +56,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row">
+                    <div class="row ">
                       <div class="col-sm-12">
                         <table
                           id="logs"
@@ -260,7 +260,7 @@
                           แสดงหน้า 1 จาก 1
                         </div>
                       </div>
-                      <div class="col-sm-12 col-md-7">
+                      <div class="col-sm-12 col-md-7 ">
                         <div
                           class="dataTables_paginate paging_simple_numbers"
                           id="logs_paginate"
@@ -295,7 +295,7 @@
                               >
                             </li>
                             <li
-                              class="paginate_button page-item next disabled"
+                              class="paginate_button page-item next disabled "
                               id="logs_next"
                             >
                               <a

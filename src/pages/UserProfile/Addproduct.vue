@@ -1,5 +1,6 @@
 <template>
     <div class="col-12">
+        <br>
                         <div class="card">
                             <div class="card-header border-0 pt-4">
                                 <h4> 
@@ -41,9 +42,11 @@
                                                 <input type="file" class="custom-file-input" id="customFile">
                                                 <label class="custom-file-label" for="customFile">เลือกรูปภาพ</label>
                                             </div>
+                                            <img src="../../../documentation/img/tim-logo.png" alt="Image Profile" class="img-fluid p-3" />
                                         </div>
                                         <div class="form-group col-md-12">
                                             <label for="detail">รายละเอียด</label>
+                                            
                                        <form action="/action_page.php">
                   <textarea id="w3review" name="w3review" rows="10" cols="100">
                   </textarea>

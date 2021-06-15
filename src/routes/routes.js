@@ -29,6 +29,11 @@ const routes = [
     
     children: [
       {
+        path: 'Overview',
+        name: 'Overview',
+        component: Overview
+      },
+      {
         path: 'icon/Info',
         name: 'Info',
         component: Info

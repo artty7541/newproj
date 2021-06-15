@@ -1,5 +1,6 @@
 <template>
   <div class="col-lg-12">
+    <br>
     <div class="card shadow">
       <div class="card-header border-0 pt-4">
         <h4>
@@ -17,22 +18,22 @@
                   ใบสั่งซื้อ
                 </h3>
               </div>
-              <div class="card-body px-5">
+              <div class="card-body px-5 ">
                 <div class="row mb-3">
                   <p class="col-xl-3 text-muted">สถานะ :</p>
-                  <div class="col-xl-9">
-                    <span class="badge badge-success p-2"> ชำระเงินแล้ว</span>
+                  <div class="col-xl-9 col-xl- text-right">
+                    <span class="badge badge-success p-2 "> ชำระเงินแล้ว</span>
                   </div>
                 </div>
-                <div class="row mb-3">
+                <div class="row mb-3 ">
                   <p class="col-xl-3 text-muted">Order ID :</p>
-                  <div class="col-xl-9">
+                  <div class="col-xl-9 col-xl- text-right">
                     <p class="btn btn-outline-primary p-1">PO00001</p>
                   </div>
                 </div>
                 <div class="row mb-3">
                   <p class="col-xl-3 text-muted">สั่งซื้อเมื่อ :</p>
-                  <div class="col-xl-9">
+                  <div class="col-xl-9 col-xl- text-right">
                     <span class="text-muted small">
                       1 ชั่วโมงที่ผ่านมา <br />
                       10 พ.ค. 64 · 16:56 น.</span
@@ -41,22 +42,22 @@
                 </div>
                 <div class="row mb-3">
                   <p class="col-xl-3 text-muted">วันหมดอายุ :</p>
-                  <div class="col-xl-9">
+                  <div class="col-xl-9 col-xl- text-right">
                     <p>ไม่มีหมดอายุ</p>
                   </div>
                 </div>
-                <div class="row mb-3">
+                <div class="row mb-3 ">
                   <p class="col-xl-3 text-muted">รายละเอียดเพิ่มเติม :</p>
-                  <div class="col-xl-9">
+                  <div class="col-xl-9 col-xl- text-right">
                     <p>-</p>
                   </div>
                 </div>
-                <div class="row mb-3">
+                <div class="row mb-3 ">
                   <p class="col-xl-3 text-muted">
                     บันทึกลับ : <br />
                     (เห็นเฉพาะ Admin)
                   </p>
-                  <div class="col-xl-9">
+                  <div class="col-xl-9 col-xl- text-right">
                     <p>ไม่มี</p>
                   </div>
                 </div>
@@ -74,25 +75,25 @@
               <div class="card-body px-5">
                 <div class="row mb-3">
                   <p class="col-xl-3 text-muted">ชื่อผู้สั่งซื้อ :</p>
-                  <div class="col-xl-9">
+                  <div class="col-xl-9 col-xl- text-right">
                     <a href="../members/profile.php?id=1">โต๊ะ 1</a>
                   </div>
                 </div>
                 <div class="row mb-3">
                   <p class="col-xl-3 text-muted">อีเมล :</p>
-                  <div class="col-xl-9">
+                  <div class="col-xl-9 col-xl- text-right">
                     <p>-</p>
                   </div>
                 </div>
                 <div class="row mb-3">
                   <p class="col-xl-3 text-muted">เบอร์โทรศัพท์ :</p>
-                  <div class="col-xl-9">
+                  <div class="col-xl-9 col-xl- text-right">
                     <p>-</p>
                   </div>
                 </div>
                 <div class="row mb-3">
                   <p class="col-xl-3 text-muted">IP Address :</p>
-                  <div class="col-xl-9">
+                  <div class="col-xl-9 col-xl- text-right">
                     <p>-</p>
                   </div>
                 </div>
@@ -141,39 +142,33 @@
                       class="sorting_disabled align-middle"
                       rowspan="1"
                       colspan="1"
-                      style="width: 630.2px"
+                      style="width: 750.2px"
                     >
                       รายการสินค้า
                     </th>
+                    
                     <th
                       class="sorting_disabled align-middle text-md-right"
                       rowspan="1"
                       colspan="1"
-                      style="width: 100px"
-                    >
-                      ราคา/หน่วย
-                    </th>
-                    <th
-                      class="sorting_disabled align-middle text-md-right"
-                      rowspan="1"
-                      colspan="1"
-                      style="width: 60px"
+                      style="width: 150px"
                     >
                       จำนวน
                     </th>
+                    
                     <th
+                      class="sorting_disabled align-middle text-md-right"
+                      rowspan="1"
+                      colspan="1"
+                      style="width: 150px"
+                    >
+                      ราคาชิ้นละ
+                    </th>
+                     <th
                       class="sorting_disabled align-middle text-md-right"
                       rowspan="1"
                       colspan="1"
                       style="width: 100px"
-                    >
-                      ส่วนลด
-                    </th>
-                    <th
-                      class="sorting_disabled align-middle text-md-right"
-                      rowspan="1"
-                      colspan="1"
-                      style="width: 200px"
                     >
                       ราคารวม
                     </th>
@@ -198,12 +193,9 @@
                       />
                      -
                     </td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">
-                      <span class="text-right">-</span>
-                    </td>
+                    <td >-</td>
+                    <td >-</td>
+                    <td >-</td>
                   </tr>
                   <tr class="even">
                     <td class="align-middle dtr-control" tabindex="0">
@@ -223,12 +215,9 @@
                       />
                       -
                     </td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">
-                      <span class="text-right">-</span>
-                    </td>
+                    <td >-</td>
+                    <td >-</td>
+                    <td >-</td>
                   </tr>
                   <tr class="odd">
                     <td class="align-middle dtr-control" tabindex="0">
@@ -248,12 +237,9 @@
                       />
                       -
                     </td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">
-                      <span class="text-right">-</span>
-                    </td>
+                    <td >-</td>
+                    <td >-</td>
+                    <td >-</td>
                   </tr>
                   <tr class="even">
                     <td class="align-middle dtr-control" tabindex="0">
@@ -273,10 +259,9 @@
                       />
                       -
                     </td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">-</td>
-                    <td class="align-middle text-md-right">-</td>
+                    <td >-</td>
+                    <td>-</td>
+                 <td >-</td>
                   </tr>
                 </tbody>
               </table>
@@ -288,18 +273,11 @@
           </div>
         </div>
         <div class="row justify-content-end">
-          <div class="col-md-6 col-lg-5 col-xl- text-right">
+          <div class="col-md-3 col-lg-2 col-xl- text-right">
             <div class="table-responsive">
               <table class="table">
                 <tbody>
-                  <tr>
-                    <th>รวมเป็นเงิน</th>
-                    <td>0</td>
-                  </tr>
-                  <tr>
-                    <th>ส่วนลดทั้งหมด</th>
-                    <td>0</td>
-                  </tr>
+                  
                   <tr>
                     <th>จำนวนเงินรวมทั้งสิ้น</th>
                     <td>0</td>

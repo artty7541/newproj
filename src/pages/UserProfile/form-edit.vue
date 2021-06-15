@@ -71,7 +71,7 @@
                         >เลือกรูปภาพ</label
                       >
                     </div>
-                    <img src="" alt="Image Profile" class="img-fluid p-3" />
+                    <img src="../../../documentation/img/tim-logo.png" alt="Image Profile" class="img-fluid p-3" />
                   </div>
                 </div>
               </div>

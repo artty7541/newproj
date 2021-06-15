@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Dashboard</a>
+      <router-link class="navbar-brand" to="/admin/overview">Dashboard</router-link>
       <button type="button"
               class="navbar-toggler navbar-toggler-right"
               :class="{toggled: $sidebar.showSidebar}"
@@ -19,8 +19,8 @@
           
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nc-icon nc-zoom-split"></i>
-              <span class="d-lg-block">&nbsp;Search</span>
+              
+              
             </a>
           </li>
         </ul>
@@ -30,20 +30,7 @@
               
             </a>
           </li>
-          <base-dropdown title="Dropdown">
-            <a class="dropdown-item" href="#">-</a>
-            <a class="dropdown-item" href="#">-</a>
-            <a class="dropdown-item" href="#">-</a>
-            <a class="dropdown-item" href="#">-</a>
-            <a class="dropdown-item" href="#">-</a>
-            <div class="divider"></div>
-            <a class="dropdown-item" href="#">-</a>
-          </base-dropdown>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              Log out
-            </a>
-          </li>
+          
         </ul>
       </div>
     </div>

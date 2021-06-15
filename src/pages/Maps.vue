@@ -11,16 +11,49 @@
               <h4 class="card-title">รายการสินค้า</h4>
             </template>
             <div class="col-md-12">
-              <div class="row col-md-12 col-md-offset-2 custyle"></div> 
+              <div class="row col-md-12 col-md-offset-2 custyle"></div>
               <router-link to="maps/Addproduct" class="btn btn-primary mt-3">
-                                    <i class="fas fa-plus"></i>
-                                    เพิ่มข้อมูล
-                                </router-link>
-                               
+                <i class="fas fa-plus"></i>
+                เพิ่มข้อมูล
+              </router-link>
             </div>
-            <br>
+            <br />
             <div>
               <div class="col-sm-12">
+                <div class="row">
+                      <div class="col-sm-12 col-md-6">
+                        <div class="dataTables_length" id="logs_length">
+                          <label
+                            >แสดงข้อมูล
+                            <select
+                              name="logs_length"
+                              aria-controls="logs"
+                              class="
+                                custom-select custom-select-sm
+                                form-control form-control-sm
+                              "
+                            >
+                              <option value="10">10</option>
+                              <option value="25">25</option>
+                              <option value="50">50</option>
+                              <option value="100">100</option>
+                            </select>
+                            แถว</label
+                          >
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6 col-xl- text-right">
+                        <div id="logs_filter" class="dataTables_filter">
+                         ค้นหา <label
+                            ><input
+                              type="search"
+                              class="form-control form-control-sm"
+                              placeholder=""
+                              aria-controls="logs"
+                          /></label>
+                        </div>
+                      </div>
+                    </div>
                 <table
                   id="logs"
                   class="table table-hover dataTable no-footer dtr-inline"
@@ -55,12 +88,13 @@
                         รูปภาพ
                       </th>
                       <th
+                      
                         class="align-middle sorting"
                         tabindex="0"
                         aria-controls="logs"
                         rowspan="1"
                         colspan="1"
-                        style="width: 414.6px"
+                        style="width: 450.6px"
                         aria-label="รายละเอียด: activate to sort column ascending"
                       >
                         รายละเอียด
@@ -71,18 +105,18 @@
                         aria-controls="logs"
                         rowspan="1"
                         colspan="1"
-                        style="width: 100.6px"
+                        style="width: 150.6px"
                         aria-label="ราคา: activate to sort column ascending"
                       >
                         ราคา
                       </th>
                       <th
                         class="align-middle sorting"
-                        tabindex="0"
+                        tabindex=""
                         aria-controls="logs"
                         rowspan="1"
                         colspan="1"
-                        style="width: 100.6px"
+                        style="width: 110.6px"
                         aria-label="สถานะ: activate to sort column ascending"
                       >
                         สถานะ
@@ -118,7 +152,7 @@
                         <img src="photo" class="img-fluid" width="150px" />
                       </td>
                       <td class="align-middle">-</td>
-                      <td class="align-middle">-</td>
+                      <td class="align-middle"></td>
                       <td class="align-middle">
                         <label class="switch">
                           <input type="checkbox" checked />
@@ -303,7 +337,7 @@
                       </td>
                       <td class="align-middle">
                         <div class="btn-group" role="group">
-                         <router-link
+                          <router-link
                             to="maps/form-edit"
                             type="button"
                             class="btn btn-warning"
@@ -337,7 +371,7 @@
 <style>
 label.switch {
   text-align: left;
-  width: 70px;
+  width: 60px;
   height: calc(50px / 2);
   border-radius: 50px;
   background-color: #4ed164;
@@ -391,8 +425,8 @@ label.switch > span:after {
   top: 50%;
   z-index: 3;
   transition: transform 0.4s cubic-bezier(0.44, -0.12, 0.07, 1.15);
-  width: calc(70px / 2);
-  height: calc(70px / 2);
+  width: calc(60px / 2);
+  height: calc(60px / 2);
   transform: translate3d(0, -50%, 0);
   background-color: #fff;
   border-radius: 100%;

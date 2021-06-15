@@ -53,6 +53,7 @@
                                                     <input type="file" class="custom-file-input" id="customFile" accept="image/*">
                                                     <label class="custom-file-label" for="customFile">เลือกรูปภาพ</label>
                                                 </div>
+                                                <img src="../../../documentation/img/tim-logo.png" alt="Image Profile" class="img-fluid p-3" />
                                             </div>
 
                                         </div>

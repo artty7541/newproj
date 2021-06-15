@@ -4,9 +4,9 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 ">
           <card
-            class="strpied-tabled-with-hover"
+            class="strpied-tabled-with-hover card shadow"
             body-classes="table-full-width table-responsive"
           >
             <template slot="header">
@@ -15,6 +15,7 @@
             </template>
             <div class="col-md-12">
               <div class="row col-md-12 col-md-offset-2 custyle">
+                
                 <div>
                   <b-card  >
                     <b-tabs pills card vertical>
@@ -93,10 +94,10 @@
                         ><b-card-text style="width: 60vw"> <table class="table table-striped custab">
                             <thead>
                               <tr>
-                                <th>ID</th>
-                                <th>Title</th>
-                                <th>Parent ID</th>
-                                <th class="text-center">Action</th>
+                                 <th>ID</th>
+                                <th>ชื่ออาหาร</th>
+                                <th>จำนวน</th>
+                                <th class="text-center">ราคา</th>
                               </tr>
                             </thead>
                             <tr>
@@ -162,10 +163,10 @@
                         ><b-card-text style="width: 60vw"> <table class="table table-striped custab">
                             <thead>
                               <tr>
-                                <th>ID</th>
-                                <th>Title</th>
-                                <th>Parent ID</th>
-                                <th class="text-center">Action</th>
+                                 <th>ID</th>
+                                <th>ชื่ออาหาร</th>
+                                <th>จำนวน</th>
+                                <th class="text-center">ราคา</th>
                               </tr>
                             </thead>
                             <tr>
@@ -319,4 +320,5 @@ color: #a09f9f;
 .btn-xs {
   margin: 5px;
 }
+
 </style>
