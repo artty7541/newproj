@@ -192,7 +192,7 @@
                       <img class="img2"
                         src="../../documentation/img/qrcode.png"
                         alt="table"
-                        style="width: 70px"
+                        style="width: 74px"
                       />
                       QR-Code
                     </div>

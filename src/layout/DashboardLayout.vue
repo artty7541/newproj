@@ -2,13 +2,9 @@
   <div class="wrapper">
     <side-bar>
       <mobile-menu slot="content"></mobile-menu>
-      <sidebar-link to="/admin/overview">
-        <i class="nc-icon nc-chart-pie-35"></i>
-        <p>Dashboard</p>
-      </sidebar-link>
-      <sidebar-link to="/admin/user">
-        <i class="nc-icon nc-circle-09"></i>
-        <p>User Profile</p>
+    <sidebar-link to="/admin/icons">
+        <i class="nc-icon nc-atom"></i>
+        <p>โต๊ะอาหาร</p>
       </sidebar-link>
       <sidebar-link to="/admin/table-list">
         <i class="nc-icon nc-notes"></i>
@@ -17,10 +13,6 @@
       <sidebar-link to="/admin/typography">
         <i class="nc-icon nc-paper-2"></i>
         <p>ผู้ดูแลระบบ</p>
-      </sidebar-link>
-      <sidebar-link to="/admin/icons">
-        <i class="nc-icon nc-atom"></i>
-        <p>โต๊ะอาหาร</p>
       </sidebar-link>
       <sidebar-link to="/admin/maps">
         <i class="nc-icon nc-pin-3"></i>
