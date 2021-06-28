@@ -19,9 +19,9 @@
                                             <label for="cat_name">ประเภทสินค้า</label>
                                             <select class="custom-select mb-3" name="cat_name">
                                                 <option disabled="" selected="">Select Types</option>
-                                                <option value="sClass">-</option>
-                                                <option value="mClass">-</option>
-                                                <option value="fClass">-</option>
+                                                <option value="sClass">รายการอาหาร</option>
+                                                <option value="mClass">รายการน้ำดื่่ม</option>
+                                              
                                             </select>
                                         </div>
                                         <div class="form-group col-md-9">

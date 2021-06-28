@@ -16,6 +16,7 @@ import Creapp from '../pages/UserProfile/form-create.vue'
 import Editadd from '../pages/UserProfile/editadmin.vue'
 import Apppro from '../pages/UserProfile/Addproduct.vue'
 import Info from '../pages/UserProfile/Info.vue'
+import Table from '../pages/addtable.vue'
 const routes = [
   {
     path: '/',
@@ -90,6 +91,11 @@ const routes = [
         name: 'Maps',
         component: Edit,
          
+      },
+      {
+        path: 'addtable',
+        name: 'addtable',
+        component: Table,
       },
       {
         path: 'notifications',

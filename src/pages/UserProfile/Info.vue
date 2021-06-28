@@ -64,42 +64,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="card shadow-sm">
-              <div class="card-header pt-4">
-                <h3 class="card-title">
-                  <i class="fas fa-cart-arrow-down"></i>
-                  ผู้สั่งซื้อ
-                </h3>
-              </div>
-              <div class="card-body px-5">
-                <div class="row mb-3">
-                  <p class="col-xl-3 text-muted">ชื่อผู้สั่งซื้อ :</p>
-                  <div class="col-xl-9 col-xl- text-right">
-                    <a href="../members/profile.php?id=1">โต๊ะ 1</a>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <p class="col-xl-3 text-muted">อีเมล :</p>
-                  <div class="col-xl-9 col-xl- text-right">
-                    <p>-</p>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <p class="col-xl-3 text-muted">เบอร์โทรศัพท์ :</p>
-                  <div class="col-xl-9 col-xl- text-right">
-                    <p>-</p>
-                  </div>
-                </div>
-                <div class="row mb-3">
-                  <p class="col-xl-3 text-muted">IP Address :</p>
-                  <div class="col-xl-9 col-xl- text-right">
-                    <p>-</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>
@@ -178,7 +143,7 @@
                   <tr class="odd">
                     <td class="align-middle dtr-control" tabindex="0">
                       <a
-                        href="https://appzstory.dev/c/sclass1-full-courses_0-100"
+                        
                         target="_blank"
                         class="btn btn-outline-primary p-1"
                       >
@@ -197,72 +162,7 @@
                     <td >-</td>
                     <td >-</td>
                   </tr>
-                  <tr class="even">
-                    <td class="align-middle dtr-control" tabindex="0">
-                      <a
-                        href="-"
-                        target="_blank"
-                        class="btn btn-outline-primary p-1"
-                      >
-                        P002
-                      </a>
-                    </td>
-                    <td class="align-middle">
-                      <img
-                        src="-"
-                        class="img-fluid"
-                        width="100px"
-                      />
-                      -
-                    </td>
-                    <td >-</td>
-                    <td >-</td>
-                    <td >-</td>
-                  </tr>
-                  <tr class="odd">
-                    <td class="align-middle dtr-control" tabindex="0">
-                      <a
-                        href=""
-                        target="_blank"
-                        class="btn btn-outline-primary p-1"
-                      >
-                        P003
-                      </a>
-                    </td>
-                    <td class="align-middle">
-                      <img
-                        src="-"
-                        class="img-fluid"
-                        width="100px"
-                      />
-                      -
-                    </td>
-                    <td >-</td>
-                    <td >-</td>
-                    <td >-</td>
-                  </tr>
-                  <tr class="even">
-                    <td class="align-middle dtr-control" tabindex="0">
-                      <a
-                        href=""
-                        target="_blank"
-                        class="btn btn-outline-primary p-1"
-                      >
-                        P004
-                      </a>
-                    </td>
-                    <td class="align-middle">
-                      <img
-                        src="-"
-                        class="img-fluid"
-                        width="100px"
-                      />
-                      -
-                    </td>
-                    <td >-</td>
-                    <td>-</td>
-                 <td >-</td>
-                  </tr>
+                
                 </tbody>
               </table>
             </div>

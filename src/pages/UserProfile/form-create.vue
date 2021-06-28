@@ -1,7 +1,8 @@
 <template>
-    <div>
+    <div class="">
         <div class="col-12">
             <br>
+            
                         <div class="card shadow">
                             <div class="card-header border-0 pt-4">
                                 <h4>
@@ -66,5 +67,16 @@
                             </form>
                         </div>
                     </div>
+                     <br>
+        <br>
+          <br>
+          
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br><br><br><br><br><br>
+        <br>
     </div>
 </template>

@@ -3,19 +3,24 @@
     <side-bar>
       <mobile-menu slot="content"></mobile-menu>
     <sidebar-link to="/admin/icons">
-        <i class="nc-icon nc-atom"></i>
+        <i class="nc-icon nc-grid-45"></i>
         <p>โต๊ะอาหาร</p>
+      </sidebar-link>
+      <sidebar-link to="/admin/addtable">
+        <i class="nc-icon nc-bullet-list-67"></i>
+        <p>เพิ่มโต๊ะอาหาร</p>
       </sidebar-link>
       <sidebar-link to="/admin/table-list">
         <i class="nc-icon nc-notes"></i>
         <p>รายการสั่งอาหาร</p>
       </sidebar-link>
+
       <sidebar-link to="/admin/typography">
         <i class="nc-icon nc-paper-2"></i>
         <p>ผู้ดูแลระบบ</p>
       </sidebar-link>
       <sidebar-link to="/admin/maps">
-        <i class="nc-icon nc-pin-3"></i>
+        <i class="nc-icon nc-align-left-2"></i>
         <p>รายการสินค้า</p>
       </sidebar-link>
       <sidebar-link to="/admin/notifications">

@@ -39,7 +39,7 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  สั่งทำ
+                                  รับออเดอร๋
                                 </a>
                                 <a href="#" class="btn btn-danger btn-xs"
                                   ><span
@@ -58,7 +58,7 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  สั่งทำ
+                                  รับออเดอร๋
                                 </a>
                                 <a href="#" class="btn btn-danger btn-xs"
                                   ><span
@@ -77,7 +77,7 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  สั่งทำ</a
+                                  รับออเดอร๋</a
                                 >
                                 <a href="#" class="btn btn-danger btn-xs"
                                   ><span
@@ -109,7 +109,7 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  สั่งทำ
+                                  รับออเดอร๋
                                 </a>
                                 <a href="#" class="btn btn-danger btn-xs"
                                   ><span
@@ -128,7 +128,7 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  สั่งทำ
+                                  รับออเดอร๋
                                 </a>
                                 <a href="#" class="btn btn-danger btn-xs"
                                   ><span
@@ -147,7 +147,7 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  สั่งทำ</a
+                                  รับออเดอร๋</a
                                 >
                                 <a href="#" class="btn btn-danger btn-xs"
                                   ><span
@@ -178,7 +178,7 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  สั่งทำ
+                                  รับออเดอร๋
                                 </a>
                                 <a href="#" class="btn btn-danger btn-xs"
                                   ><span
@@ -197,7 +197,7 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  สั่งทำ
+                                  รับออเดอร๋
                                 </a>
                                 <a href="#" class="btn btn-danger btn-xs"
                                   ><span
@@ -216,7 +216,7 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  สั่งทำ</a
+                                  รับออเดอร๋</a
                                 >
                                 <a href="#" class="btn btn-danger btn-xs"
                                   ><span

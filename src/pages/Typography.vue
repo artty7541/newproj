@@ -265,7 +265,7 @@
                           class="dataTables_paginate paging_simple_numbers"
                           id="logs_paginate"
                         >
-                          <ul class="pagination">
+                          <ul class="pagination" style="margin-left : 700px">
                             <li
                               class="
                                 paginate_button

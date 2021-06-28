@@ -31,11 +31,12 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="username">ชื่อผู้ใช้งาน</label>
-                                                <p class="bg-light p-2 shadow-sm">-</p>
+                                                <input type="text" class="form-control" name="last_name" id="last_name" placeholder="นามสกุล" value="-" required="">
+                                              
                                             </div>
                                             <div class="form-group">
                                                 <label for="password">รหัสผ่าน</label>
-                                                <p class="bg-light p-2 shadow-sm">-</p>
+                                              <input type="text" class="form-control" name="last_name" id="last_name" placeholder="นามสกุล" value="-" required="">
                                             </div>
 
                                         </div>
@@ -72,5 +73,15 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br><br><br><br><br><br>
+        <br>
     </div>
+    
 </template>

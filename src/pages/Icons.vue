@@ -1,19 +1,19 @@
 <template>
-
   <div class="content">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-8 ">
+        <div class="col-md-8">
           <card class="card shadow">
             <template slot="header">
-              <h4 class="card-title ">โต๊ะอาหาร</h4>
+              <h4 class="card-title">โต๊ะอาหาร</h4>
             </template>
             <div class="">
-              <div class="row ">
+              <div class="row">
                 <div>
                   <button class="button row">
                     <div class="">
-                      <img class="img"
+                      <img
+                        class="img"
                         src="../../documentation/img/table.jpg"
                         alt="table"
                         style="width: 80px"
@@ -26,7 +26,8 @@
                 <div>
                   <button class="button row">
                     <div>
-                      <img class="img"
+                      <img
+                        class="img"
                         src="../../documentation/img/table.jpg"
                         alt="table"
                         style="width: 80px"
@@ -39,7 +40,8 @@
                 <div>
                   <button class="button">
                     <div>
-                      <img class="img"
+                      <img
+                        class="img"
                         src="../../documentation/img/table.jpg"
                         alt="table"
                         style="width: 80px"
@@ -52,7 +54,8 @@
                 <div>
                   <button class="button">
                     <div>
-                      <img class="img"
+                      <img
+                        class="img"
                         src="../../documentation/img/table.jpg"
                         alt="table"
                         style="width: 80px"
@@ -65,7 +68,8 @@
                 <div>
                   <button class="button">
                     <div>
-                      <img class="img"
+                      <img
+                        class="img"
                         src="../../documentation/img/table.jpg"
                         alt="table"
                         style="width: 80px"
@@ -78,7 +82,8 @@
                 <div>
                   <button class="button">
                     <div>
-                      <img class="img"
+                      <img
+                        class="img"
                         src="../../documentation/img/table.jpg"
                         alt="table"
                         style="width: 80px"
@@ -91,7 +96,8 @@
                 <div>
                   <button class="button">
                     <div>
-                      <img class="img"
+                      <img
+                        class="img"
                         src="../../documentation/img/table.jpg"
                         alt="table"
                         style="width: 80px"
@@ -104,7 +110,8 @@
                 <div>
                   <button class="button">
                     <div>
-                      <img class="img"
+                      <img
+                        class="img"
                         src="../../documentation/img/table.jpg"
                         alt="table"
                         style="width: 80px"
@@ -117,7 +124,8 @@
                 <div>
                   <button class="button">
                     <div>
-                      <img class="img"
+                      <img
+                        class="img"
                         src="../../documentation/img/table.jpg"
                         alt="table"
                         style="width: 80px"
@@ -127,19 +135,13 @@
                     </div>
                   </button>
                 </div>
-                <div>
-                <li>
-                
-         <a class="btn btn-lg btn-info " href="#">
-         <i class="glyphicon glyphicon-dashboard pull-left " ></i><span>+<br></span></a> 
-            
-        </li>
-                </div>
+                <div></div>
               </div>
             </div>
+            <br />
           </card>
         </div>
-        <div class="col-md-4 ">
+        <div class="col-md-4">
           <div class="card shadow-sm">
             <div class="card-header pt-4 card shadow">
               <h3 class="card-title">
@@ -178,56 +180,124 @@
                   <span class="badge badge-success"> 100 </span>
                 </tr>
               </table>
-              
+
               <br />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1"
+              />
+              <link
+                rel="stylesheet"
+               
+              />
+              <div class="w3-container">
+                <button
+                  style="border-radius: 10px"
+                  onclick="document.getElementById('id01').style.display='block'"
+                  class="w3-button w3-white"
+                >
+                  <div>
+                    <img
+                      class="img2"
+                      src="../../documentation/img/qrcode.png"
+                      alt="table"
+                      style="width: 74px"
+                    />
+                  </div>
+                  QR-Code
+                </button>
+
+                <div id="id01" class="w3-modal">
+                  <div class="w3-modal-content">
+                    <div class="w3-container">
+                      <span
+                        onclick="document.getElementById('id01').style.display='none'"
+                        class="w3-button w3-display-topright"
+                        >&times;</span
+                      >
+                      <div class="modal-content" modal-transclude=""><div class="modal-header ng-scope">
+                 <h3 class="modal-title font-bold text-center ng-binding">
+โต๊ะอาหาร โต๊ะ 1 </h3>
+</div>
+<div class="modal-body ng-scope" stop-event="touchend" id="inventory_add" style="padding: 15px 15px;padding-buttom:15px; ">
+    <form name="admin_form" class="bs-example form-horizontal form-validation ng-pristine ng-valid">
+        <div class="row">
+            <div class="col-sm-12" style="text-align:center;">
+            <img src="https://app.deltafood.co/qr/?data=https://app.deltafood.co/ci/t/35EfHfW65w">
+            </div>
+        </div>
+        <div class="modal-footer ">
+            <div class="pull-contain">
+                            <a href="" class="btn btn-info ng-binding" ng-click="print(p)"> พิมพ์</a>
+                  <a href="" class="btn btn-primary ng-binding ng-isolate-scope" confirm="QRcode นี้จะไม่สามารถใช้ได้อีกต่อไป" ng-disabled="!admin_form.$valid" ng-click="change(p)" aria-disabled="false">  เปลี่ยน QRcode</a>
+            
+            </div>
+        </div>
+    </form>
+</div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <meta
+                name=""
+                content="width=device-width, initial-scale=1"
+              />
+              <link
+                rel="stylesheet"
+                href="https://www.w3schools.com/w3css/4/w3.css"
+              />
+              
+                <button
+                  style="border-radius: 10px"
+                 
+                  class="w3-button w3-white"
+                >
+                  <div>
+                    <img
+                      class="img2"
+                      src="../../documentation/img/recycle.jpg"
+                      alt="table"
+                      style="width: 70px"
+                    />
+                  </div>
+                  ประวัติ
+                </button>
+
+             
               
             </div>
-            
-          </div>
-          <div class="row">
-          <div class="col-md-4 ">
-                  <button class="button1">
-                    
-                    <div>
-                      <img class="img2"
-                        src="../../documentation/img/qrcode.png"
-                        alt="table"
-                        style="width: 74px"
-                      />
-                      QR-Code
-                    </div>
-                  </button>
-                </div>
-                <div class="col-md-4">
-                  <button class="button1">
-                    <div>
-                      <img class="img2"
-                        src="../../documentation/img/recycle.jpg"
-                        alt="table"
-                        style="width: 70px"
-                      />
-                      ประวัติ
-                      
-                    </div>
-                  </button>
-                </div>
-                <div class="col-md-4">
-                  <button class="button1">
-                    <div>
-                      <img class="img2"
-                        src="../../documentation/img/bin.png"
-                        alt="table"
-                        style="width: 70px"
-                      />
-                    รายการยกเลิก
-                     
-                    </div>
-                  </button>
-                </div>
+            <div class="col-md-4">
+              
+              
+                <button
+                  style="border-radius: 10px"
+                 
+                  class="w3-button w3-white "
+                >
+                  <div>
+                    <img
+                      class="img2"
+                      src="../../documentation/img/bin.png"
+                      alt="table"
+                      style="width: 70px"
+                    />
+                  </div>
+                  รายการยกเลิก
+                </button>
+
+              
+            </div>
           </div>
         </div>
       </div>
-      
     </div>
 
     <div class="col-md-8">
@@ -294,7 +364,7 @@
                             aria-controls="logs"
                             rowspan="1"
                             colspan="1"
-                            style="width: 81.6px"
+                            style="width: 120.6px"
                             aria-sort="ascending"
                             aria-label="สถานะ: activate to sort column descending"
                           >
@@ -306,7 +376,7 @@
                             aria-controls="logs"
                             rowspan="1"
                             colspan="1"
-                            style="width: 102.6px"
+                            style="width: 132.6px"
                             aria-label="รหัสสั่งซื้อ: activate to sort column ascending"
                           >
                             รหัสสั่งซื้อ
@@ -317,10 +387,10 @@
                             aria-controls="logs"
                             rowspan="1"
                             colspan="1"
-                            style="width: 161.6px"
+                            style="width: 131.6px"
                             aria-label="ผู้สั่งซื้อ: activate to sort column ascending"
                           >
-                            ผู้สั่งซื้อ
+                            โต๊ะ
                           </th>
                           <th
                             class="align-middle sorting"
@@ -339,7 +409,7 @@
                             aria-controls="logs"
                             rowspan="1"
                             colspan="1"
-                            style="width: 125.6px"
+                            style="width: 135.6px"
                             aria-label="วันที่สั่งซื้อ: activate to sort column ascending"
                           >
                             วันที่สั่งซื้อ
@@ -350,7 +420,7 @@
                             aria-controls="logs"
                             rowspan="1"
                             colspan="1"
-                            style="width: 122.6px"
+                            style="width: 132.6px"
                             aria-label="หมายเหตุ: activate to sort column ascending"
                           >
                             หมายเหตุ
@@ -387,7 +457,7 @@
                             </a>
                           </td>
                           <td class="align-middle">
-                            <a href="../members/profile.php?id=1"> - </a>
+                            <a> - </a>
                           </td>
                           <td class="align-middle">-</td>
                           <td class="align-middle">
@@ -423,7 +493,7 @@
                             </a>
                           </td>
                           <td class="align-middle">
-                            <a href="../members/profile.php?id=2"> - </a>
+                            <a> - </a>
                           </td>
                           <td class="align-middle">-</td>
                           <td class="align-middle">
@@ -459,7 +529,7 @@
                             </a>
                           </td>
                           <td class="align-middle">
-                            <a href="../members/profile.php?id=3"> - </a>
+                            <a > - </a>
                           </td>
                           <td class="align-middle">-</td>
                           <td class="align-middle">
@@ -495,7 +565,7 @@
                             </a>
                           </td>
                           <td class="align-middle">
-                            <a href="../members/profile.php?id=4"> - </a>
+                            <a> - </a>
                           </td>
                           <td class="align-middle">-</td>
                           <td class="align-middle">
@@ -517,7 +587,7 @@
                     </table>
                   </div>
                 </div>
-                <div class="row ">
+                <div class="row">
                   <div class="col-sm-12 col-md-5">
                     <div
                       class="dataTables_info"
@@ -528,8 +598,8 @@
                       แสดงหน้า 1 จาก 1
                     </div>
                   </div>
-               
-                  <div class="col-sm-12 col-md-7 ">
+
+                  <div class="col-sm-12 col-md-7" >
                     <div
                       class="dataTables_paginate paging_simple_numbers"
                       id="logs_paginate"
@@ -575,7 +645,6 @@
                     </div>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -583,7 +652,6 @@
       </card>
     </div>
   </div>
-
 </template>
 <script>
 import Card from "src/components/Cards/Card.vue";
@@ -594,6 +662,181 @@ export default {
 };
 </script>
 <style>
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic");
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 14px;
+  color: #777;
+  height: 600px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a {
+  color: #777;
+}
+a:hover {
+  color: #f39305;
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+.banner-heading {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.banner-sub-heading {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+.btn-warning {
+  background-color: #eca439;
+}
+.btn-warning:hover {
+  background-color: #f39305;
+}
+.mybtn {
+  border-radius: 0;
+  height: 30px;
+  margin: 10px auto;
+  line-height: 10px;
+}
+.form-control {
+  color: #d1d1d1;
+  font-size: 14px;
+  font-weight: 400;
+  border-bottom: 2px solid #05a8f3;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 30px;
+}
+.form-check-input {
+  background-color: #fff !important;
+  border-radius: 50% !important;
+  border: 2px solid #f39305 !important;
+}
+.modal-content {
+  width: 400px;
+  margin: auto;
+}
+
+.modal-header {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #e9ecef;
+  border-radius: 0;
+  background-color: #ffffff;
+}
+.modal-title {
+  font-size: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.modal-body {
+  background-image: url("http://snippetimg.meditialabs.com/bgs/bg1.jpg");
+  background-position: top left;
+  background-size: cover;
+  width: 100%;
+  padding: 1.5rem 3rem 3rem 3rem;
+}
+body.modal-open .supreme-container {
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+}
+.text-intro {
+  font-size: 0.8em;
+  color: #777;
+  text-align: center;
+}
+.form-div {
+  background-color: #fff;
+  padding: 2em 1.5em;
+  box-shadow: 2px 2px 2px 2px rgba(215, 215, 215, 0.5);
+}
+form {
+  border: 0 !important;
+}
+@media (max-width: 500px) {
+  .modal-content {
+    width: 330px;
+    margin: auto;
+  }
+  .banner-heading {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .banner-sub-heading {
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .banner-text {
+    padding: 150px 0 150px 0;
+  }
+  .banner-sub-heading {
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 40px;
+  }
+}
 .button {
   border-radius: 10px;
   position: relative;
@@ -601,15 +844,15 @@ export default {
   border: none;
   font-size: 15px;
   color: #ffffff;
-  padding: 38px;
-  width: 180px;
+  padding: 15px;
+  width: 200px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
-  box-shadow: 5px 5px  rgb(185, 178, 178);
+  box-shadow: 5px 5px rgb(185, 178, 178);
 }
 
 .button:after {
@@ -654,26 +897,36 @@ export default {
   overflow: hidden;
   cursor: pointer;
   margin-left: 15px;
-   box-shadow: 5px 5px  rgb(185, 178, 178);
-  
+  box-shadow: 5px 5px rgb(185, 178, 178);
 }
 
 .img1 {
-  
   border-radius: 10px;
   padding: 5px;
   width: 5px;
   margin-left: -5px !important;
 }
 .img2 {
-  
   border-radius: 10px;
   padding: px;
   width: 10px;
   margin-left: px !important;
 }
 a.btn.btn-lg.btn-info {
-    line-height: 1.1;
-    margin-top:40px;
+  line-height: 1.1;
+  margin-top: 40px;
 }
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+}
+
+
 </style>

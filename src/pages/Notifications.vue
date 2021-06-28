@@ -4,21 +4,151 @@
       <card>
         <div class="row">
           <div class="col-md-6">
-            <h5>Notifications</h5>
+            <h5>รายการสินค้าที่ถูกยกเลิก</h5>
             
           </div>
         </div>
         <br>
-        <br>
+      
         <div class="places-buttons">
           <div class="row justify-content-center">
-            <div class="col-6 text-center">
-              
+           
+               <div class="col-md-12">
+              <div class="row col-md-12 col-md-offset-2 custyle">
+                
+                <div>
+                  <b-card  >
+                    <b-tabs pills card vertical>
+                      <b-tab title="รายการยกเลิกโต๊ะ 1" active
+                        ><b-card-text style="width: 60vw">
+                          <table class="table table-striped custab">
+                            <thead>
+                              <tr>
+                                <th>ID</th>
+                                <th>ชื่ออาหาร</th>
+                                <th>จำนวน</th>
+                                <th class="text-center">ราคา</th>
+                              </tr>
+                            </thead>
+                            <tr>
+                              <td>1</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td >
+                                -
+                                
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td >
+                                -
+                                
+                               
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td>
+                               
+                               -
+                              
+                              </td>
+                            </tr>
+                          </table></b-card-text
+                        ></b-tab
+                      >
+                      <b-tab title="รายการยกเลิกโต๊ะ 2"
+                        ><b-card-text style="width: 60vw"> <table class="table table-striped custab">
+                            <thead>
+                              <tr>
+                                 <th>ID</th>
+                                <th>ชื่ออาหาร</th>
+                                <th>จำนวน</th>
+                                <th class="text-center">ราคา</th>
+                              </tr>
+                            </thead>
+                            <tr>
+                              <td>1</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td >
+                               
+                                -
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td >
+                              -
+                                
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td >
+                                -
+                              </td>
+                            </tr>
+                          </table></b-card-text></b-tab
+                      >
+                      <b-tab title="รายการยกเลิกโต๊ะ 3"
+                        ><b-card-text style="width: 60vw"> <table class="table table-striped custab">
+                            <thead>
+                              <tr>
+                                 <th>ID</th>
+                                <th>ชื่ออาหาร</th>
+                                <th>จำนวน</th>
+                                <th class="text-center">ราคา</th>
+                              </tr>
+                            </thead>
+                            <tr>
+                              <td>1</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td >
+                                -
+                                
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td >
+                               -
+                                
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>-</td>
+                              <td>-</td>
+                              <td >
+                               -
+                                
+                              </td>
+                            </tr>
+                          </table></b-card-text></b-tab
+                      >
+                    </b-tabs>
+                  </b-card>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
          
           
-        </div>
+      
       </card>
     </div>
   </div>
@@ -55,5 +185,15 @@
 
 </script>
 <style lang="scss">
-
+.nav .nav-item .nav-link:focus {
+     background-color: #007bff
+     ; 
+}
+.nav .nav-item 
+.nav-link:hover{
+color: #a09f9f;
+}
+.btn-xs {
+  margin: 5px;
+}
 </style>
