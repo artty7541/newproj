@@ -149,10 +149,10 @@
                         </a>
                       </td>
                       <td class="align-middle">
-                        <img src="photo" class="img-fluid" width="150px" />
+                        <img src="../../documentation/img/kraprow.jpg" class="img-fluid" width="100px" />
                       </td>
-                      <td class="align-middle">-</td>
-                      <td class="align-middle"></td>
+                      <td class="align-middle">กะเพราหมูสับไช่ดาว</td>
+                      <td class="align-middle">60</td>
                       <td class="align-middle">
                         <label class="switch">
                           <input type="checkbox" checked />
@@ -193,10 +193,10 @@
                         </a>
                       </td>
                       <td class="align-middle">
-                        <img src="photo" class="img-fluid" width="150px" />
+                        <img src="../../documentation/img/fried-rice.jpg" class="img-fluid" width="100px" />
                       </td>
-                      <td class="align-middle">-</td>
-                      <td class="align-middle">-</td>
+                      <td class="align-middle">ข้าวผัดกุัง</td>
+                      <td class="align-middle">60</td>
                       <td class="align-middle">
                         <label class="switch">
                           <input type="checkbox" checked />
@@ -237,17 +237,17 @@
                         </a>
                       </td>
                       <td class="align-middle">
-                        <img src="photo" class="img-fluid" width="150px" />
+                        <img src="../../documentation/img/PT1.jpg" class="img-fluid" width="100px" />
                       </td>
-                      <td class="align-middle">-</td>
-                      <td class="align-middle">-</td>
+                      <td class="align-middle">ผัดไทย</td>
+                      <td class="align-middle">60</td>
                       <td class="align-middle">
                         <label class="switch">
                           <input type="checkbox" checked />
                           <span></span>
                         </label>
                       </td>
-                      <td class="align-middle">
+                      <td class="align-middle ">
                         <div class="btn-group" role="group">
                           <router-link
                             to="maps/form-edit"

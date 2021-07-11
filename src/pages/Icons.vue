@@ -186,27 +186,24 @@
           </div>
 
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
               <meta
                 name="viewport"
                 content="width=device-width, initial-scale=1"
               />
-              <link
-                rel="stylesheet"
-               
-              />
+              <link rel="stylesheet" />
               <div class="w3-container">
                 <button
                   style="border-radius: 10px"
                   onclick="document.getElementById('id01').style.display='block'"
-                  class="w3-button w3-white"
+                  class="button1"
                 >
                   <div>
                     <img
                       class="img2"
                       src="../../documentation/img/qrcode.png"
                       alt="table"
-                      style="width: 74px"
+                      style="width: 50px"
                     />
                   </div>
                   QR-Code
@@ -220,80 +217,113 @@
                         class="w3-button w3-display-topright"
                         >&times;</span
                       >
-                      <div class="modal-content" modal-transclude=""><div class="modal-header ng-scope">
-                 <h3 class="modal-title font-bold text-center ng-binding">
-โต๊ะอาหาร โต๊ะ 1 </h3>
-</div>
-<div class="modal-body ng-scope" stop-event="touchend" id="inventory_add" style="padding: 15px 15px;padding-buttom:15px; ">
-    <form name="admin_form" class="bs-example form-horizontal form-validation ng-pristine ng-valid">
-        <div class="row">
-            <div class="col-sm-12" style="text-align:center;">
-            <img src="https://app.deltafood.co/qr/?data=https://app.deltafood.co/ci/t/35EfHfW65w">
-            </div>
-        </div>
-        <div class="modal-footer ">
-            <div class="pull-contain">
-                            <a href="" class="btn btn-info ng-binding" ng-click="print(p)"> พิมพ์</a>
-                  <a href="" class="btn btn-primary ng-binding ng-isolate-scope" confirm="QRcode นี้จะไม่สามารถใช้ได้อีกต่อไป" ng-disabled="!admin_form.$valid" ng-click="change(p)" aria-disabled="false">  เปลี่ยน QRcode</a>
-            
-            </div>
-        </div>
-    </form>
-</div></div>
+                      <div class="modal-content" modal-transclude="">
+                        <div class="modal-header ng-scope">
+                          <h3
+                            class="modal-title font-bold text-center ng-binding"
+                          >
+                            โต๊ะอาหาร โต๊ะ 1
+                          </h3>
+                        </div>
+                        <div
+                          class="modal-body ng-scope"
+                          stop-event="touchend"
+                          id="inventory_add"
+                          style="padding: 15px 15px; padding-buttom: 15px"
+                        >
+                          <form
+                            name="admin_form"
+                            class="
+                              bs-example
+                              form-horizontal form-validation
+                              ng-pristine ng-valid
+                            "
+                          >
+                            <div class="row">
+                              <div class="col-sm-12" style="text-align: center">
+                                <img
+                                  src="https://app.deltafood.co/qr/?data=https://app.deltafood.co/ci/t/35EfHfW65w"
+                                />
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <div class="pull-contain">
+                                <a
+                                  href=""
+                                  class="btn btn-info ng-binding"
+                                  ng-click="print(p)"
+                                >
+                                  พิมพ์</a
+                                >
+                                <a
+                                  href=""
+                                  class="
+                                    btn btn-primary
+                                    ng-binding ng-isolate-scope
+                                  "
+                                  confirm="QRcode นี้จะไม่สามารถใช้ได้อีกต่อไป"
+                                  ng-disabled="!admin_form.$valid"
+                                  ng-click="change(p)"
+                                  aria-disabled="false"
+                                >
+                                  เปลี่ยน QRcode</a
+                                >
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <meta
-                name=""
-                content="width=device-width, initial-scale=1"
-              />
+            <div class="col-md-3">
+              <meta name="" content="width=device-width, initial-scale=1" />
               <link
                 rel="stylesheet"
                 href="https://www.w3schools.com/w3css/4/w3.css"
               />
-              
-                <button
-                  style="border-radius: 10px"
-                 
-                  class="w3-button w3-white"
-                >
-                  <div>
-                    <img
-                      class="img2"
-                      src="../../documentation/img/recycle.jpg"
-                      alt="table"
-                      style="width: 70px"
-                    />
-                  </div>
-                  ประวัติ
-                </button>
 
-             
+              <button style="border-radius: 10px" class="button2 w3-white">
+                <div>
+                  <img
+                    class="img2"
+                    src="../../documentation/img/recycle.jpg"
+                    alt="table"
+                    style="width: 50px"
+                  />
+                </div>
+                ประวัติ
+              </button>
               
             </div>
-            <div class="col-md-4">
-              
-              
-                <button
-                  style="border-radius: 10px"
-                 
-                  class="w3-button w3-white "
-                >
-                  <div>
-                    <img
-                      class="img2"
-                      src="../../documentation/img/bin.png"
-                      alt="table"
-                      style="width: 70px"
-                    />
-                  </div>
-                  รายการยกเลิก
-                </button>
 
-              
+            <div class="col-md-3">
+              <button style="border-radius: 10px" class="button3 w3-white">
+                <div>
+                  <img
+                    class="img2"
+                    src="../../documentation/img/bin.png"
+                    alt="table"
+                    style="width: 50px"
+                  />
+                </div>
+                รายการยกเลิก
+              </button>
+            </div>
+            <div class="col-md-3">
+              <button style="border-radius: 10px" class="button4 w3-white">
+                <div>
+                  <img
+                    class="img2"
+                    src="../../documentation/img/x.png"
+                    alt="table"
+                    style="width: 50px"
+                  />
+                </div>
+                เคลียร์โต๊ะอาหาร
+              </button>
             </div>
           </div>
         </div>
@@ -529,7 +559,7 @@
                             </a>
                           </td>
                           <td class="align-middle">
-                            <a > - </a>
+                            <a> - </a>
                           </td>
                           <td class="align-middle">-</td>
                           <td class="align-middle">
@@ -599,7 +629,7 @@
                     </div>
                   </div>
 
-                  <div class="col-sm-12 col-md-7" >
+                  <div class="col-sm-12 col-md-7">
                     <div
                       class="dataTables_paginate paging_simple_numbers"
                       id="logs_paginate"
@@ -651,6 +681,250 @@
         </div>
       </card>
     </div>
+    <div class="col-md-8">
+      <card class="card shadow">
+        <div class="table-list">
+          <div id="item-list" class="p-xxs">
+            <table
+              class="table table-striped b-t b-light"
+              style="margin-bottom: 0px"
+            >
+              <thead>
+                <tr>
+                  <th style="width: 20px">
+                    <label
+                      class="i-checks m-b-none"
+                      ng-init="check_all = false"
+                    >
+                      <input
+                        type="checkbox"
+                        ng-model="check_all"
+                        ng-click="check_(check_all)"
+                        class="ng-pristine ng-untouched ng-valid"
+                        tabindex="0"
+                        aria-checked="false"
+                        aria-invalid="false"
+                      /><i></i>
+                    </label>
+                  </th>
+                  <th class="ng-binding" >รายการ</th>
+                  <th class="text-right ng-binding">ราคา</th>
+                  <th class="text-center ng-binding">จำนวน</th>
+                  <!--<th class="text-left">{{'pos.unit'|translate}}</th>-->
+                  <th class="text-right ng-binding">รวม</th>
+                  <!-- ngIf: config.use_status -->
+                  <th
+                    style="width: 80px"
+                    ng-if="config.use_status"
+                    class="ng-binding ng-scope"
+                  >
+                    สถานะ
+                  </th>
+                  <!-- end ngIf: config.use_status -->
+                  <th
+                    class="
+                      text-center
+                      hidden-sm hidden-xs hidden-md hidden-sm
+                      ng-binding
+                    "
+                  >
+                    โดย
+                  </th>
+                  <th class="text-center" style="width: 60px">#</th>
+                </tr>
+              </thead>
+              <!-- ngRepeat: item in data_pay_select.items| orderBy:'-od_id' -->
+              <tbody
+                ng-repeat="item in data_pay_select.items| orderBy:'-od_id'"
+                ng-init="item.show = true"
+                ng-dblclick="change_items(item, $index)"
+                class="ng-scope"
+                tabindex="0"
+                style=""
+              >
+                <tr>
+                  <td>
+                    <label
+                      class="i-checks m-b-none"
+                      ng-show="item.status - 0 != 5"
+                      aria-hidden="false"
+                    >
+                      <input
+                        ng-init="item.selected = false"
+                        ng-click="check_list(item.selected)"
+                        type="checkbox"
+                        ng-model="item.selected"
+                        class="ng-pristine ng-untouched ng-valid"
+                        tabindex="0"
+                        aria-checked="false"
+                        aria-invalid="false"
+                      />
+                      <i></i>
+                    </label>
+                  </td>
+                  <td
+                    ng-click="item.show = !item.show"
+                    class="ng-binding"
+                    role="button"
+                    tabindex="0"
+                  >
+                    ข้าวซอย
+                  </td>
+                  <td class="">
+                    <!-- ngIf: item.is_buffet === 0 && item.price - 0 != 0 --><span
+                      ng-if="item.is_buffet === 0 &amp;&amp; item.price - 0 != 0"
+                      class="ng-binding ng-scope"
+                    >
+                      30</span
+                    ><!-- end ngIf: item.is_buffet === 0 && item.price - 0 != 0 -->
+                    <!-- ngIf: item.is_buffet === 1 -->
+                    <!-- ngIf: item.is_buffet === 0 && item.price - 0 === 0 -->
+                    <!--<a editable-number="item.detail.price"  onbeforesave="change_price(item.od_id,$data)">{{ item.detail.price}}</a>-->
+                  </td>
+                  <td class="">
+                    <a
+                      editable-number="item.detail.count"
+                      onbeforesave="change_count(item.od_id,$data)"
+                      class="ng-scope ng-binding editable editable-click"
+                      >1</a
+                    >
+                  </td>
+                  <!--<td   class="text-left"> {{ item.unit}}</td>-->
+                  <td
+                    ng-click="item.show = !item.show"
+                    class=""
+                    role="button"
+                    tabindex="0"
+                  >
+                    <!-- ngIf: item.is_buffet === 0 --><span
+                      ng-if="item.is_buffet === 0"
+                      class="ng-binding ng-scope"
+                    >
+                      71.00 </span
+                    ><!-- end ngIf: item.is_buffet === 0 -->
+                    <!-- ngIf: item.is_buffet === 1 -->
+                  </td>
+                  <td
+                    class=" ng-binding"
+                    ng-click="change_status_food([item.od_id], item.status - 0 != 5)"
+                    ng-bind-html="get_status_food(item.status)"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span class="label bg-warning">กำลังทำ</span>
+                  </td>
+                  <td
+                    class="
+                      text-center
+                      hidden-sm hidden-xs hidden-md hidden-sm
+                      ng-binding
+                    "
+                  >
+                    ทดสอบ 2
+                  </td>
+                   <div class="row ">
+                     
+                       <div>
+  <b-button v-b-modal.modal-no-backdrop>แก้ไขสถานะ</b-button>
+
+  <b-modal id="modal-no-backdrop" hide-backdrop content-class="shadow" title="แก้ไขสถานะ">
+    <div class="modal-body ng-scope" stop-event="touchend">
+    
+        <div class="col-sm-12">
+            <div class="list-group " style="margin-bottom: 0px;">
+                <!-- ngRepeat: a in status --><a href="" ng-repeat="a in status" class="list-group-item bg-light dk" style="font-size: 25px;" ng-click="select(a.id)">
+                    ส่งครัว
+                </a><!-- end ngRepeat: a in status --><a href="" ng-repeat="a in status" class="list-group-item bg-warning" style="font-size: 25px;" ng-click="select(a.id)">
+                    กำลังทำ
+                </a><!-- end ngRepeat: a in status --><a href="" ng-repeat="a in status" class="list-group-item bg-info" style="font-size: 25px;" ng-click="select(a.id)">
+                    เสร็จแล้ว
+                </a><!-- end ngRepeat: a in status --><a href="" ng-repeat="a in status" class="list-group-item bg-success" style="font-size: 25px;" ng-click="select(a.id)">
+                    ได้รับแล้ว
+                </a><!-- end ngRepeat: a in status --><a href="" ng-repeat="a in status" class="list-group-item bg-danger" style="font-size: 25px;" ng-click="select(a.id)">
+                    หมด
+                </a><!-- end ngRepeat: a in status -->
+            </div>
+        </div>
+    
+</div>
+  </b-modal>
+</div>
+                      </div>
+                </tr>
+                
+                <!-- ngIf: item.detail.comment !== '' || item.toppings.length !== 0 || item.details.length - 0 !== 0 -->
+                <tr
+                  ng-show="item.show"
+                  ng-if="item.detail.comment !== '' || item.toppings.length !== 0 || item.details.length - 0 !== 0"
+                  class="ng-scope"
+                  aria-hidden="false"
+                >
+                  <td></td>
+                  <td colspan="7">
+                    <ul>
+                      <!-- ngIf: item.detail.comment !== '' -->
+                      <!-- ngRepeat: d in item.details -->
+                      <li
+                        ng-repeat="d in item.details"
+                        class="ng-binding ng-scope"
+                      >
+                        วัตถุดิบ :
+                        <!-- ngRepeat: sub in d.sub| filter:{ selected: true } --><span
+                          ng-repeat="sub in d.sub| filter:{ selected: true }"
+                          class="ng-binding ng-scope"
+                          ><!-- ngIf: $index !== 0 -->ไก่</span
+                        ><!-- end ngRepeat: sub in d.sub| filter:{ selected: true } -->
+                        <!-- ngIf: get_price_sub(d) !== 0 --><span
+                          ng-if="get_price_sub(d) !== 0"
+                          class="ng-binding ng-scope"
+                          >(<!-- ngIf: get_price_sub(d) > 0 --><span
+                            ng-if="get_price_sub(d) > 0"
+                            class="ng-scope"
+                            >+</span
+                          ><!-- end ngIf: get_price_sub(d) > 0 -->1 บาท)</span
+                        ><!-- end ngIf: get_price_sub(d) !== 0 -->
+                      </li>
+                      <!-- end ngRepeat: d in item.details -->
+                      <li
+                        ng-repeat="d in item.details"
+                        class="ng-binding ng-scope"
+                      >
+                        ราคา :
+                        <!-- ngRepeat: sub in d.sub| filter:{ selected: true } --><span
+                          ng-repeat="sub in d.sub| filter:{ selected: true }"
+                          class="ng-binding ng-scope"
+                          ><!-- ngIf: $index !== 0 -->พิเศษ</span
+                        ><!-- end ngRepeat: sub in d.sub| filter:{ selected: true } -->
+                        <!-- ngIf: get_price_sub(d) !== 0 --><span
+                          ng-if="get_price_sub(d) !== 0"
+                          class="ng-binding ng-scope"
+                          >(<!-- ngIf: get_price_sub(d) > 0 --><span
+                            ng-if="get_price_sub(d) > 0"
+                            class="ng-scope"
+                            >+</span
+                          ><!-- end ngIf: get_price_sub(d) > 0 -->40 บาท)</span
+                        ><!-- end ngIf: get_price_sub(d) !== 0 -->
+                      </li>
+                      <!-- end ngRepeat: d in item.details -->
+                      <!-- ngRepeat: tp in item.toppings -->
+                    </ul>
+                  </td>
+                </tr>
+                <!-- end ngIf: item.detail.comment !== '' || item.toppings.length !== 0 || item.details.length - 0 !== 0 -->
+              </tbody>
+              <!-- end ngRepeat: item in data_pay_select.items| orderBy:'-od_id' -->
+            </table>
+          </div>
+        </div>
+        <div
+          class="panel-footer font-bold text-right bg-info dk"
+          style="font-size: 20px; color: #fff"
+        >
+          ราคาอาหารรวม 71 บาท
+        </div>
+        
+      </card>
+    </div>
   </div>
 </template>
 <script>
@@ -660,8 +934,46 @@ export default {
     Card,
   },
 };
+
 </script>
 <style>
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic");
 body {
   font-family: "Nanum Gothic", sans-serif;
@@ -889,14 +1201,69 @@ form {
   font-size: 10px;
   color: #000000;
   padding: 7px;
-  width: 70%;
+  width: 75px;
   text-align: center;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
-  margin-left: 15px;
+  margin-left: -10px;
+  box-shadow: 5px 5px rgb(185, 178, 178);
+}
+.button2 {
+  border-radius: 10px;
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+  font-size: 10px;
+  color: #000000;
+  padding: 7px;
+  width: 75px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+
+  box-shadow: 5px 5px rgb(185, 178, 178);
+}
+
+.button3 {
+  border-radius: 10px;
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+  font-size: 10px;
+  color: #000000;
+  padding: 7px;
+  width: 75px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+
+  box-shadow: 5px 5px rgb(185, 178, 178);
+}
+.button4 {
+  border-radius: 10px;
+  position: relative;
+  background-color: #ffffff;
+  border: none;
+  font-size: 10px;
+  color: #000000;
+  padding: 7px;
+  width: 75px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+
   box-shadow: 5px 5px rgb(185, 178, 178);
 }
 
@@ -917,16 +1284,14 @@ a.btn.btn-lg.btn-info {
   margin-top: 40px;
 }
 .modal-content {
-    position: relative;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 6px;
-    outline: 0;
-    -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
-    box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  outline: 0;
+  -webkit-box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
+  box-shadow: 0 3px 9px rgb(0 0 0 / 50%);
 }
-
-
 </style>

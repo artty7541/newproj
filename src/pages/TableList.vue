@@ -39,14 +39,9 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  รับออเดอร๋
+                                  รอคิว
                                 </a>
-                                <a href="#" class="btn btn-danger btn-xs"
-                                  ><span
-                                    class="glyphicon glyphicon-remove"
-                                  ></span>
-                                  ยกเลิก</a
-                                >
+                                
                               </td>
                             </tr>
                             <tr>
@@ -58,14 +53,9 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  รับออเดอร๋
+                                  รอคิว
                                 </a>
-                                <a href="#" class="btn btn-danger btn-xs"
-                                  ><span
-                                    class="glyphicon glyphicon-remove"
-                                  ></span>
-                                  ยกเลิก</a
-                                >
+                                
                               </td>
                             </tr>
                             <tr>
@@ -77,14 +67,9 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  รับออเดอร๋</a
+                                  รอคิว</a
                                 >
-                                <a href="#" class="btn btn-danger btn-xs"
-                                  ><span
-                                    class="glyphicon glyphicon-remove"
-                                  ></span>
-                                  ยกเลิก</a
-                                >
+                                
                               </td>
                             </tr>
                           </table></b-card-text
@@ -109,14 +94,9 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  รับออเดอร๋
+                                  รอคิว
                                 </a>
-                                <a href="#" class="btn btn-danger btn-xs"
-                                  ><span
-                                    class="glyphicon glyphicon-remove"
-                                  ></span>
-                                  ยกเลิก</a
-                                >
+                                
                               </td>
                             </tr>
                             <tr>
@@ -128,14 +108,9 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  รับออเดอร๋
+                                  รอคิว
                                 </a>
-                                <a href="#" class="btn btn-danger btn-xs"
-                                  ><span
-                                    class="glyphicon glyphicon-remove"
-                                  ></span>
-                                  ยกเลิก</a
-                                >
+                               
                               </td>
                             </tr>
                             <tr>
@@ -147,14 +122,9 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  รับออเดอร๋</a
+                                  รอคิว</a
                                 >
-                                <a href="#" class="btn btn-danger btn-xs"
-                                  ><span
-                                    class="glyphicon glyphicon-remove"
-                                  ></span>
-                                  ยกเลิก</a
-                                >
+                                
                               </td>
                             </tr>
                           </table></b-card-text></b-tab
@@ -178,14 +148,9 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  รับออเดอร๋
+                                  รอคิว
                                 </a>
-                                <a href="#" class="btn btn-danger btn-xs"
-                                  ><span
-                                    class="glyphicon glyphicon-remove"
-                                  ></span>
-                                  ยกเลิก</a
-                                >
+                               
                               </td>
                             </tr>
                             <tr>
@@ -197,14 +162,9 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  รับออเดอร๋
+                                  รอคิว
                                 </a>
-                                <a href="#" class="btn btn-danger btn-xs"
-                                  ><span
-                                    class="glyphicon glyphicon-remove"
-                                  ></span>
-                                  ยกเลิก</a
-                                >
+                               
                               </td>
                             </tr>
                             <tr>
@@ -216,14 +176,9 @@
                                   ><span
                                     class="glyphicon glyphicon-edit"
                                   ></span>
-                                  รับออเดอร๋</a
+                                  รอคิว</a
                                 >
-                                <a href="#" class="btn btn-danger btn-xs"
-                                  ><span
-                                    class="glyphicon glyphicon-remove"
-                                  ></span>
-                                  ยกเลิก</a
-                                >
+                                
                               </td>
                             </tr>
                           </table></b-card-text></b-tab
